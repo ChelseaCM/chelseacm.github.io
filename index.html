@@ -3,38 +3,76 @@
   <head>
     <meta charset="utf-8">
      <link rel="stylesheet" href="main.css">
-    <title>Google</title>
-
+    <title>Chelsea Michaels: Digital Resume</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script type="text/javascript" src="application.js"></script> 
   </head>
-  <body>
-    <nav><ul>
-    	<li><a href="https://plus.google.com/u/0/?tab=wX">+You</a>
-    	<li><a href="https://www.google.com/webhp?hl=en&tab=ww">Search</a>
-    	<li><a href="https://www.google.com/imghp?hl=en&tab=wi">Images</a>
-    	<li><a href="https://maps.google.com/maps?hl=en&tab=wl">Maps</a>
-    	<li><a href="https://www.youtube.com/?tab=w1">YouTube</a>
-    	<li><a href="https://news.google.com/nwshp?hl=en&tab=wn">News</a>
-    	<li><a href="https://mail.google.com/mail/?tab=wm">Gmail</a>
-    	<li><a href="https://drive.google.com/?tab=wo&authuser=0">Drive</a>
-    	<li><a href="https://www.google.com/calendar?tab=wc">Calendar</a>
-    	<li><a href="http://www.google.com/intl/en/options/">More</a>
-    	    </nav>
-
-      <div id="signin"><a href="#">SIGN IN</a></div>
-      
-      <div id="googlesearch">
-        <img src="https://www.google.com/images/srpr/logo4w.png"><br>
-        <input type="text" id="searchbar"><br>
-        <input type="submit" class="button" value="Google Search">
-        <input type="submit" class="button" value="I'm Feeling Lucky"></div>
-
-<div id="footer"><ul id="ul_lower">
-<li><a href="#">Advertising Programs</a>
-  <li><a href="#">Business Solutions</a>
-    <li><a href="#">Privacy & Terms</a>
-      <li><a href="#">+Google</a>
-    <li><a href="#">About Google</a>
-    </ul>
+  <div id="header">
+  	<span>Chelsea Michaels</span><br>
+  	<a href="mailto:chelseacmichaels@gmail.com">chelseacmichaels@gmail.com</a><br>
+	<div class="button"><a href="#">Home/Resume</a></div>
+	<div class="button"><a href="#">About Me</a></div>
+	<div class="button"><a href="#">Contact</a></div>
 </div>
-  </body>
-</html>
+<!--Main Section containing Resume Sections-->
+  <div id="container">
+  <div id="resume">
+  	<p class="sectionhead">Summary</p>
+  		<ul>
+  			<li>I'm a recent International Business graduate from Maryville College,and I am now located in the Minneapolis-St Paul area.</li>
+  			<li>My experiences include positions in public relations, marketing, program development, event planning, customer service, project management, writing, and social media outreach.
+  			<li>Technology is a passion of mine and I would ideally love to work in a position that combines business and technology. I am both analytical and creative, and I am very data-driven.
+  			<li>I actively seek out new experiences, whether it is studying abroad in France, moving from Tennessee to Minnesota, or just teaching myself web development.
+  			</ul>
+  		<p class="sectionhead">Skills</p>
+  		<ul>
+  			<li><span>Web Design/Programming:</span> HTML, CSS, jQuery, JavaScript, Photoshop, git revision control
+  			<li><span>Software:</span> Photoshop, MS Word, Excel, Powerpoint
+  			<li><span>Languages:</span> English and French (conversational)
+  			<li><span>Soft Skills:</span> Copywriting, Public Speaking, Public Relations, Teaching/Orientations, Customer Service
+  			</ul>
+  			<!--Experience Section-->
+  		<p class="sectionhead">Experience</p>
+  		<h1>Media Coordinator</h1>
+  		<p>Daystar Church, April 2011 - June 2013</p>
+  		<h1>Server</h1>
+  			<p>Anaba Japanese Cuisine, November 2012 - May 2013</p>
+  		<h1>Public Relations Officer</h1>
+  			<p>Maryville College Student Governement, July 2011 - December 2011</p>
+  		<h1>Program Development Intern</h1>
+  			<p>Program for International and Civic Leadership, January 2011 - February 2011</p>
+  		<h1>Event Planner/Committee Chairperson</h1>
+  			<p>Maryville College Model United Nations Conference, January 2011</p>
+  		<h1>Algebra II Instructor</h1>
+  			<p>Homeschooling Cooperative, May 2010 - July 2010</p>
+  		<h1>Customer Service Admin and Concessionist</h1>
+  			<p>Regal Entertainment Group, December 2006 - December 2008</p>
+
+<!--Education Section-->
+<p class="sectionhead">Education</p>
+	<h1>Maryville College</h1>
+	<h2>Bachelors of Arts in International Business<br>
+	Minor in French</h2>
+	<p>GPA: 3.4
+	<p>Senior Thesis: A Case Study of Chipotle, focusing on supply chain strategy and challenges and its social responsibility emphasis.
+	<h1>Universite de Nantes</h1>
+	<h2>IRRFLE: French Language Certificate</h2>
+	<p>One semester abroad
+  </div>
+  <div id="aboutme">
+  	<img src="images/profile.jpg">
+  	<p>After graduating with a degree in International Business from Maryville College in May 2013, I decided to move to Minneapolis-St Paul, because I'm a fan of the Twin Cities area and know that it's a place that I want to be.</p>
+  	<p class="sectionhead">Educational Background</p>
+  	<p>I chose to complete an undergraduate degree in International Business because I have a passion for language, culture, geography, and ultimately, it is my intention to work for a multinational firm or do something related to travel or transportation.
+  		<p>However, I'm equally interested in technology, which is something that I begin to study on my own time. In the last year of college I began to study web development and internet marketing, and discovered that I have a strong technical aptitude. I believe that business goals can be greatly aided by innovative use of technology, and I hope to be able to continue to pursue these passions in my future career.</p>
+  	</p>
+  	<p class="sectionhead">Experience</p>
+  	Over the course of my college career, I've cultivated a variety of interesting and diverse experiences that have made me a well-rounded individual. I have three years of overall customer service experience and have held numerous positions interacting with the public both on my college campus and in the community. In many of these roles I was able to create long lasting positive results for the organization or business that I was working for.
+  </div>
+  <div id="contact">
+  	<p>Feel free to contact me if you have any questions or opportunities. I look forward to hearing from you.</p>
+  	<h1>Chelsea Michaels</h1>
+  	<p>(865)-851-4611<br>
+  		<a href="mailto:chelseacmichaels@gmail.com">Email Me</a>
+  </div>
+</div>
